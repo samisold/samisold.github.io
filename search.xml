@@ -26,6 +26,54 @@
     </entry>
     
     <entry>
+      <title>PS系列：简单处理文档手机照片</title>
+      <link href="/posts/7251.html"/>
+      <url>/posts/7251.html</url>
+      
+        <content type="html"><![CDATA[<p>文档照片处理完直接打印<br><a id="more"></a></p><p><code>手机拍摄的文档照片，如果直接拿来打印，经常会遇到打印非常模糊甚至打不出来的情况。这个时候我们的主角PS就派上用场了。</code></p><blockquote><p>处理歪斜</p></blockquote><p><code>视情况而定，此步可略过</code></p><ul><li>滤镜-镜头矫正-拉一条线调整图像水平</li></ul><blockquote><p>高反差保留法</p></blockquote><ul><li>导入素材-新建图层两次</li><li>选中最上面的图层副本，更改混合模式为“滤色”</li><li>点击滤镜-其他-高反差保留-调节至预览效果最佳</li><li>Ctrl+Shift+Alt+E盖印图层</li><li>Ctrl+A全选-Ctrl+C复制-Q进入快速蒙版-Ctrl+V-Q退出快速蒙版-Ctrl+Shift+I反选-新建空白图层-Ctrl+delete填充黑色-Ctrl+D取消选区<br><code>到此线稿已经提取出来了</code></li></ul><blockquote><p>调整色阶</p></blockquote><ul><li>在线稿层底下新建空白图层-Alt+delete填充白色-Ctrl+Shift+Alt+E盖印图层-Ctrl+L调整色阶<br>Ctrl+Shift+S保存导出</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 文章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Photoshop </tag>
+            
+            <tag> 技巧 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Hexo系列：Hexo官方资源</title>
+      <link href="/posts/45119.html"/>
+      <url>/posts/45119.html</url>
+      
+        <content type="html"><![CDATA[<a id="more"></a><h2 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h2><ul><li><a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank" rel="noopener">Matery</a></li><li><p><a href="https://blinkfox.github.io/" target="_blank" rel="noopener">Demo</a></p><ul><li>安装<br><code>git clone https://github.com/blinkfox/hexo-theme-matery.git</code></li></ul></li><li><p><a href="https://github.com/miccall/hexo-theme-Mic_Theme" target="_blank" rel="noopener">MiccallTheme</a></p><ul><li><a href="http://miccall.tech/" target="_blank" rel="noopener">Demo</a><ul><li>安装<br><code>git clone https://github.com/blinkfox/hexo-theme-matery.git</code></li></ul></li></ul></li></ul><h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><ul><li><a href="https://hexo.io/plugins/" target="_blank" rel="noopener">Hexo官方插件站</a></li></ul><blockquote><p>hexo插件管理</p><ul><li><a href="https://github.com/adamsiwiec/hexagon" target="_blank" rel="noopener">hexagon</a><ul><li>安装<br><code>$ npm install -g hexagon-cli</code></li></ul></li></ul></blockquote><ul><li>指令<br><code>hexagon --help</code><br><code>hexagon -l</code></li></ul><blockquote><p>置顶 更新时间</p><ul><li><a href="https://github.com/YuyingWu/hexo-generator-index-plus" target="_blank" rel="noopener">hexo-generator-index-plus</a><ul><li>安装<br><code>$ npm install hexo-generator-index-plus --save</code></li></ul></li></ul></blockquote><h2 id="七牛图床同步"><a href="#七牛图床同步" class="headerlink" title="七牛图床同步"></a>七牛图床同步</h2><ul><li><a href="https://github.com/gyk001/hexo-qiniu-sync" target="_blank" rel="noopener">hexo-qiniu-sync</a><ul><li>安装<br><code>npm install hexo-qiniu-sync --save</code></li></ul></li></ul><blockquote><p>视频播放</p><ul><li><a href="https://github.com/MoePlayer/hexo-tag-dplayer" target="_blank" rel="noopener">hexo-tag-dplayer</a><ul><li>安装<br><code>npm install hexo-tag-dplayer --save</code></li></ul></li></ul></blockquote><p>hexo-baidu-url-submit<br><code>npm install hexo-baidu-url-submit --save</code></p><blockquote><p>站内搜索</p><ul><li>hexo-generator-searchdb</li></ul></blockquote><blockquote><p>站点地图</p><ul><li>hexo-generator-sitemap</li></ul></blockquote><blockquote><p>文章加密码</p><ul><li>hexo-blog-encrypt</li></ul></blockquote><blockquote><p>压缩代码，如HTML, CSS, JS and images</p><ul><li><a href="https://github.com/hexojs/hexo-asset-pipeline" target="_blank" rel="noopener">hexo-asset-pipeline</a><ul><li>安装<br><code>npm install hexo-asset-pipeline --save</code></li></ul></li></ul></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 文章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Hexo系列：Hexo插件的配置</title>
       <link href="/posts/62942.html"/>
       <url>/posts/62942.html</url>
@@ -72,82 +120,11 @@
     </entry>
     
     <entry>
-      <title>Hexo系列：Hexo官方资源</title>
-      <link href="/posts/45119.html"/>
-      <url>/posts/45119.html</url>
-      
-        <content type="html"><![CDATA[<a id="more"></a><h2 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h2><ul><li><a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank" rel="noopener">Matery</a></li><li><p><a href="https://blinkfox.github.io/" target="_blank" rel="noopener">Demo</a></p><ul><li>安装<br><code>git clone https://github.com/blinkfox/hexo-theme-matery.git</code></li></ul></li><li><p><a href="https://github.com/miccall/hexo-theme-Mic_Theme" target="_blank" rel="noopener">MiccallTheme</a></p><ul><li><a href="http://miccall.tech/" target="_blank" rel="noopener">Demo</a><ul><li>安装<br><code>git clone https://github.com/blinkfox/hexo-theme-matery.git</code></li></ul></li></ul></li></ul><h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><ul><li><a href="https://hexo.io/plugins/" target="_blank" rel="noopener">Hexo官方插件站</a></li></ul><blockquote><p>hexo插件管理</p><ul><li><a href="https://github.com/adamsiwiec/hexagon" target="_blank" rel="noopener">hexagon</a><ul><li>安装<br><code>$ npm install -g hexagon-cli</code></li></ul></li></ul></blockquote><ul><li>指令<br><code>hexagon --help</code><br><code>hexagon -l</code></li></ul><blockquote><p>置顶 更新时间</p><ul><li><a href="https://github.com/YuyingWu/hexo-generator-index-plus" target="_blank" rel="noopener">hexo-generator-index-plus</a><ul><li>安装<br><code>$ npm install hexo-generator-index-plus --save</code></li></ul></li></ul></blockquote><h2 id="七牛图床同步"><a href="#七牛图床同步" class="headerlink" title="七牛图床同步"></a>七牛图床同步</h2><ul><li><a href="https://github.com/gyk001/hexo-qiniu-sync" target="_blank" rel="noopener">hexo-qiniu-sync</a><ul><li>安装<br><code>npm install hexo-qiniu-sync --save</code></li></ul></li></ul><blockquote><p>视频播放</p><ul><li><a href="https://github.com/MoePlayer/hexo-tag-dplayer" target="_blank" rel="noopener">hexo-tag-dplayer</a><ul><li>安装<br><code>npm install hexo-tag-dplayer --save</code></li></ul></li></ul></blockquote><p>hexo-baidu-url-submit<br><code>npm install hexo-baidu-url-submit --save</code></p><blockquote><p>站内搜索</p><ul><li>hexo-generator-searchdb</li></ul></blockquote><blockquote><p>站点地图</p><ul><li>hexo-generator-sitemap</li></ul></blockquote><blockquote><p>文章加密码</p><ul><li>hexo-blog-encrypt</li></ul></blockquote><blockquote><p>压缩代码，如HTML, CSS, JS and images</p><ul><li><a href="https://github.com/hexojs/hexo-asset-pipeline" target="_blank" rel="noopener">hexo-asset-pipeline</a><ul><li>安装<br><code>npm install hexo-asset-pipeline --save</code></li></ul></li></ul></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> 文章 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>Hexo系列：搭建Valine admin管理后台</title>
       <link href="/posts/62789.html"/>
       <url>/posts/62789.html</url>
       
         <content type="html"><![CDATA[<a id="more"></a><p>Valine是个纯前台的评论系列，本身没有后台数据管理功能，因此需自己搭建论坛管理平台<br>使用Valine admin搭建管理平台</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 文章 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>PS系列：简单处理文档手机照片</title>
-      <link href="/posts/7251.html"/>
-      <url>/posts/7251.html</url>
-      
-        <content type="html"><![CDATA[<p>文档照片处理完直接打印<br><a id="more"></a></p><p><code>手机拍摄的文档照片，如果直接拿来打印，经常会遇到打印非常模糊甚至打不出来的情况。这个时候我们的主角PS就派上用场了。</code></p><blockquote><p>处理歪斜</p></blockquote><p><code>视情况而定，此步可略过</code></p><ul><li>滤镜-镜头矫正-拉一条线调整图像水平</li></ul><blockquote><p>高反差保留法</p></blockquote><ul><li>导入素材-新建图层两次</li><li>选中最上面的图层副本，更改混合模式为“滤色”</li><li>点击滤镜-其他-高反差保留-调节至预览效果最佳</li><li>Ctrl+Shift+Alt+E盖印图层</li><li>Ctrl+A全选-Ctrl+C复制-Q进入快速蒙版-Ctrl+V-Q退出快速蒙版-Ctrl+Shift+I反选-新建空白图层-Ctrl+delete填充黑色-Ctrl+D取消选区<br><code>到此线稿已经提取出来了</code></li></ul><blockquote><p>调整色阶</p></blockquote><ul><li>在线稿层底下新建空白图层-Alt+delete填充白色-Ctrl+Shift+Alt+E盖印图层-Ctrl+L调整色阶<br>Ctrl+Shift+S保存导出</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 文章 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 技巧 </tag>
-            
-            <tag> Photoshop </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>用VS Code markdown编写博文</title>
-      <link href="/posts/36822.html"/>
-      <url>/posts/36822.html</url>
-      
-        <content type="html"><![CDATA[<a id="more"></a><blockquote><p>放弃Atom，转投VScode</p></blockquote><p>我用的win10 64位系统，Atom貌似兼容性不好（贴图，预览都不好用）</p><h2 id="已装插件"><a href="#已装插件" class="headerlink" title="已装插件"></a>已装插件</h2><ul><li>Chinese Language Pack</li><li>Markdown All in One</li><li>Markdown Paste</li><li>Markdown Preview Enhanced</li></ul><h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><blockquote><p>快速插入链接</p><ul><li>Ctrl+L</li></ul></blockquote>]]></content>
       
       
       <categories>
@@ -189,23 +166,46 @@
     </entry>
     
     <entry>
-      <title>电子书资源</title>
-      <link href="/posts/11288.html"/>
-      <url>/posts/11288.html</url>
+      <title>用VS Code markdown编写博文</title>
+      <link href="/posts/36822.html"/>
+      <url>/posts/36822.html</url>
       
-        <content type="html"><![CDATA[<blockquote><p>电子书，爱下不下</p></blockquote><a id="more"></a><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><h2 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h2><h2 id="语文"><a href="#语文" class="headerlink" title="语文"></a>语文</h2><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://pan.baidu.com/disk/home?#/all?path=%2F&amp;vmode=list" target="_blank" rel="noopener">主力地址筹备中</a></li></ul><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/my.css&quot;&gt;</code></pre>]]></content>
+        <content type="html"><![CDATA[<a id="more"></a><blockquote><p>放弃Atom，转投VScode</p></blockquote><p>我用的win10 64位系统，Atom貌似兼容性不好（贴图，预览都不好用）</p><h2 id="已装插件"><a href="#已装插件" class="headerlink" title="已装插件"></a>已装插件</h2><ul><li>Chinese Language Pack</li><li>Markdown All in One</li><li>Markdown Paste</li><li>Markdown Preview Enhanced</li></ul><h2 id="快捷键"><a href="#快捷键" class="headerlink" title="快捷键"></a>快捷键</h2><blockquote><p>快速插入链接</p><ul><li>Ctrl+L</li></ul></blockquote>]]></content>
       
       
       <categories>
           
-          <category> 资源 </category>
+          <category> 文章 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 电子书 </tag>
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>Hexo系列：Hexo主题matery的自定义修改</title>
+      <link href="/posts/19667.html"/>
+      <url>/posts/19667.html</url>
+      
+        <content type="html"><![CDATA[<a id="more"></a><h2 id="Matery官方库"><a href="#Matery官方库" class="headerlink" title="Matery官方库"></a>Matery官方库</h2><ul><li><a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank" rel="noopener">Matery</a></li><li><a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md" target="_blank" rel="noopener">帮助文档</a></li></ul><h2 id="把主页默认的英文菜单改成中文"><a href="#把主页默认的英文菜单改成中文" class="headerlink" title="把主页默认的英文菜单改成中文"></a>把主页默认的英文菜单改成中文</h2><p>进入主题目录<code>\themes\hexo-theme-matery</code>，打开<code>_config.yml</code>文件，修改为</p><pre><code>menu:  首页:    url: /    icon: fa-home  分类:    url: /categories    icon: fa-bookmark  标签:    url: /tags    icon: fa-tags  归档:    url: /archives    icon: fa-archive  关于:    url: /about    icon: fa-user-circle-o  友情链接:    url: /friends    icon: fa-address-book</code></pre><h3 id="修改首页页脚版权声明"><a href="#修改首页页脚版权声明" class="headerlink" title="修改首页页脚版权声明"></a>修改首页页脚版权声明</h3><p>进入目录<code>\themes\hexo-theme-matery\layout\_partial</code>，打开<code>footer.ejs</code>文件，修改为</p><pre><code>&lt;footer class=&quot;page-footer bg-color&quot;&gt;    &lt;div class=&quot;container row center-align&quot;&gt;        &lt;div class=&quot;col s12 m8 l8 copy-right&quot;&gt;            &amp;copy;2011-2018 &lt;a href=&quot;http://www.syteng.com&quot; target=&quot;_blank&quot;&gt;常青滕’s Blog&lt;/a&gt; 保留所有权利        &lt;/div&gt;        &lt;div class=&quot;col s12 m4 l4 social-link&quot;&gt;&lt;%- partial(&#39;_partial/social-link&#39;) %&gt;&lt;/div&gt;    &lt;/div&gt;&lt;/footer&gt;</code></pre><h3 id="修改logo、favicon和微信二维码等"><a href="#修改logo、favicon和微信二维码等" class="headerlink" title="修改logo、favicon和微信二维码等"></a>修改logo、favicon和微信二维码等</h3><p>进入目录<code>themes\hexo-theme-matery\source</code>，<code>themes\hexo-theme-matery\source\medias</code>，<code>themes\hexo-theme-matery\source\medias\reward</code>，修改相应文件即可</p><h2 id="新建Page"><a href="#新建Page" class="headerlink" title="新建Page"></a>新建Page</h2><h3 id="新建分类-categories-页"><a href="#新建分类-categories-页" class="headerlink" title="新建分类 categories 页"></a>新建分类 categories 页</h3><p>categories页是用来展示所有分类的页面，如果在你的博客source目录下还没有<code>categories/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;categories&quot;</code></p><pre><code>---title: categoriesdate: 2018-09-30 17:25:30type: &quot;categories&quot;layout: &quot;categories&quot;---</code></pre><h3 id="新建标签-tags-页"><a href="#新建标签-tags-页" class="headerlink" title="新建标签 tags 页"></a>新建标签 tags 页</h3><p>tags页是用来展示所有标签的页面，如果在你的博客source目录下还没有<code>tags/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;tags&quot;</code><br>编辑你刚刚新建的页面文件<code>/source/tags/index.md</code>，至少需要以下内容：</p><pre><code>---title: tagsdate: 2018-09-30 18:23:38type: &quot;tags&quot;layout: &quot;tags&quot;---</code></pre><h3 id="新建关于我-about-页"><a href="#新建关于我-about-页" class="headerlink" title="新建关于我 about 页"></a>新建关于我 about 页</h3><p>about页是用来展示关于我和我的博客信息的页面，如果在你的博客source目录下还没有<code>about/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;about&quot;</code><br>编辑你刚刚新建的页面文件<code>/source/about/index.md</code>，至少需要以下内容：</p><pre><code>---title: aboutdate: 2018-09-30 17:25:30type: &quot;about&quot;layout: &quot;about&quot;---</code></pre><h3 id="新建友情连接-friends-页（可选的）"><a href="#新建友情连接-friends-页（可选的）" class="headerlink" title="新建友情连接 friends 页（可选的）"></a>新建友情连接 friends 页（可选的）</h3><p>friends页是用来展示友情连接信息的页面，如果在你的博客source目录下还没有<code>friends/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;friends&quot;</code><br>编辑你刚刚新建的页面文件<code>/source/friends/index.md</code>，至少需要以下内容：</p><pre><code>---title: friendsdate: 2018-12-12 21:25:30type: &quot;friends&quot;layout: &quot;friends&quot;---</code></pre><p>同时，在你的博客source目录下新建_data目录，在_data目录中新建<code>friends.json</code>文件，文件内容如下所示：</p><pre><code>[{    &quot;avatar&quot;: &quot;http://image.luokangyuan.com/1_qq_27922023.jpg&quot;,    &quot;name&quot;: &quot;码酱&quot;,    &quot;introduction&quot;: &quot;我不是大佬，只是在追寻大佬的脚步&quot;,    &quot;url&quot;: &quot;http://luokangyuan.com/&quot;,    &quot;title&quot;: &quot;前去学习&quot;}, {    &quot;avatar&quot;: &quot;http://image.luokangyuan.com/4027734.jpeg&quot;,    &quot;name&quot;: &quot;闪烁之狐&quot;,    &quot;introduction&quot;: &quot;编程界大佬，技术牛，人还特别好，不懂的都可以请教大佬&quot;,    &quot;url&quot;: &quot;https://blinkfox.github.io/&quot;,    &quot;title&quot;: &quot;前去学习&quot;}, {    &quot;avatar&quot;: &quot;http://image.luokangyuan.com/avatar.jpg&quot;,    &quot;name&quot;: &quot;ja_rome&quot;,    &quot;introduction&quot;: &quot;平凡的脚步也可以走出伟大的行程&quot;,    &quot;url&quot;: &quot;ttps://me.csdn.net/jlh912008548&quot;,    &quot;title&quot;: &quot;前去学习&quot;}]</code></pre><h2 id="修改社交链接"><a href="#修改社交链接" class="headerlink" title="修改社交链接"></a>修改社交链接</h2><p>在主题文件的<code>/layout/_partial/social-link.ejs</code>文件中，你可以修改或添加你需要的社交链接地址</p><p>其中，社交图标在Font Awesome中搜索找到。以下是常用社交图标标识:</p><pre><code>Facebook: fa-facebookTwitter: fa-twitterGoogle-plus: fa-google-plusLinkedin: fa-linkedinTumblr: fa-tumblrMedium: fa-mediumSlack: fa-slack新浪微博: fa-weibo微信: fa-wechatQQ: fa-qq</code></pre><h2 id="自定义主页文字，解除与subtitle和description的绑定"><a href="#自定义主页文字，解除与subtitle和description的绑定" class="headerlink" title="自定义主页文字，解除与subtitle和description的绑定"></a>自定义主页文字，解除与subtitle和description的绑定</h2><p>进入博客根目录，在<code>_config.yml</code>文件中添加字段</p><pre><code># 自定义的matery_Theme首页文字  matery_subtitle: 常青滕’s Blogmatery_description: 念念不忘，必有回响</code></pre><ul><li>打开目录<code>themes\hexo-theme-matery\layout\_partial\bg-cover.ejs</code>文件</li><li>将<code>config.subtitle</code>和<code>config.subtitle</code>字段替换为<code>config.matery_subtitle</code>和<code>config.matery_subtitle</code>即可</li></ul><h2 id="自定义主页文章卡片中的摘要内容"><a href="#自定义主页文章卡片中的摘要内容" class="headerlink" title="自定义主页文章卡片中的摘要内容"></a>自定义主页文章卡片中的摘要内容</h2><ul><li>修改目录<code>\themes\hexo-theme-matery\layout\</code>目录下的<code>index.ejs</code>、<code>archive.ejs</code>、<code>category.ejs</code>文件</li><li>将<code>&lt;div class=&quot;summary&quot;&gt;&lt;%- strip_html(post.content).substring(0, 70) %&gt;</code>修改为<code>&lt;div class=&quot;summary&quot;&gt;&lt;%- strip_html(post.excerpt).substring(0, 70) %&gt;</code></li><li>在编写文章的时候，在文章中插入标签<code>&lt;!-- more --&gt;</code>，标签<code>&lt;!-- more --&gt;</code>以上的内容为文章摘要，摘要中的前70个字符现在在主页文章卡片中</li></ul><h2 id="美化文章中超链接，添加变色效果和椭圆边框"><a href="#美化文章中超链接，添加变色效果和椭圆边框" class="headerlink" title="美化文章中超链接，添加变色效果和椭圆边框"></a>美化文章中超链接，添加变色效果和椭圆边框</h2><p>打开/source/css/my.css，如果主题没有自定义css功能，可以在主题css中添加内容<br>        /<em>   给超链接增加特效      </em>/<br>        .dt-p {<br>            background-color: white;<br>            border: 1px solid #333;<br>            border-radius: 45px;<br>            width: auto;<br>            height: auto;<br>            padding: 9px 45px 9px 45px;<br>            text-align: center;<br>            display: inline;   /<em>后面无换行，宽度随内容变化</em>/<br>        }</p><pre><code>    .dt-p:hover {        background-color: black;    }    #dt-a {        text-decoration:none !important; /*去掉超链接下划线*/    }    #dt-span {        color: white;        mix-blend-mode: difference;  /*颜色反相*/    }</code></pre><p>博文中需要加效果的链接代码如下(class、ID名称与css中一致)</p><pre><code>&lt;div&gt;        &lt;a href=&quot;/posts/41119.html&quot; id=dt-a&gt;&lt;p class=dt-p&gt;&lt;span id=dt-span&gt;Windows软件推荐&lt;/span&gt;&lt;/p&gt;&lt;/a&gt;&lt;br&gt;        &lt;/div&gt;</code></pre><p>实际效果如图<br><img src="http://pk535c0ah.bkt.clouddn.com/static//images/2018-12-27-09-21-38.gif"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 文章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -216,7 +216,7 @@
       <link href="/posts/36279.html"/>
       <url>/posts/36279.html</url>
       
-        <content type="html"><![CDATA[<blockquote><p>站长自己最常去的网站</p></blockquote><a id="more"></a><h2 id="导航"><a href="#导航" class="headerlink" title="导航"></a>导航</h2><ul><li><a href="http://ilxdh.com/" target="_blank" rel="noopener">龙轩导航</a><ul><li>最常用的导航</li></ul></li></ul><h2 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h2><ul><li><p><a href="https://www.laomoit.com/" target="_blank" rel="noopener">老殁博客</a></p><ul><li>一个良心的个人软件博客</li></ul></li></ul><blockquote><p>论坛</p></blockquote><ul><li><a href="https://www.52pojie.cn/" target="_blank" rel="noopener">吾爱破解</a><ul><li>国内知名破解论坛</li></ul></li></ul><h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><blockquote><p>电影</p></blockquote><ul><li><a href="http://www.dy2018.com/" target="_blank" rel="noopener">电影天堂</a>(<a href="https://www.dytt8.net/" target="_blank" rel="noopener">备用</a>)<ul><li>好站，偶尔不稳定</li></ul></li></ul><blockquote><p>追剧</p></blockquote><ul><li><a href="https://www.meijutt.com/" target="_blank" rel="noopener">美剧天堂</a></li></ul><blockquote><p>综合</p></blockquote><ul><li><a href="https://www.bilibili.com/" target="_blank" rel="noopener">哔哩哔哩</a><ul><li>恭喜您打开了新世界的大门，这里可以看动漫、看直播、看影评、看短片、学英语、学编程、学PS。。。而且还没有广告</li></ul></li></ul><blockquote><p>直播</p></blockquote><ul><li><a href="https://zhibo.at/" target="_blank" rel="noopener">Z直播</a><ul><li>管站貌似挂了，同名app确实好用</li></ul></li></ul><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><blockquote><p>资讯</p></blockquote><ul><li><a href="https://www.zhihu.com/" target="_blank" rel="noopener">知乎</a><ul><li>有事问知乎</li></ul></li></ul><blockquote><p>英语</p></blockquote><ul><li><a href="https://www.iyyxz.com/" target="_blank" rel="noopener">爱英语小站</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li>站长自己最常去的网站</li></ul><a id="more"></a><h2 id="导航"><a href="#导航" class="headerlink" title="导航"></a>导航</h2><ul><li><a href="http://ilxdh.com/" target="_blank" rel="noopener">龙轩导航</a><ul><li>最常用的导航</li></ul></li></ul><h2 id="软件"><a href="#软件" class="headerlink" title="软件"></a>软件</h2><ul><li><p><a href="https://www.laomoit.com/" target="_blank" rel="noopener">老殁博客</a></p><ul><li>一个良心的个人软件博客</li></ul></li></ul><blockquote><p>论坛</p></blockquote><ul><li><a href="https://www.52pojie.cn/" target="_blank" rel="noopener">吾爱破解</a><ul><li>国内知名破解论坛</li></ul></li></ul><h2 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h2><blockquote><p>电影</p></blockquote><ul><li><a href="http://www.dy2018.com/" target="_blank" rel="noopener">电影天堂</a>(<a href="https://www.dytt8.net/" target="_blank" rel="noopener">备用</a>)<ul><li>好站，偶尔不稳定</li></ul></li></ul><blockquote><p>追剧</p></blockquote><ul><li><a href="https://www.meijutt.com/" target="_blank" rel="noopener">美剧天堂</a></li></ul><blockquote><p>综合</p></blockquote><ul><li><a href="https://www.bilibili.com/" target="_blank" rel="noopener">哔哩哔哩</a><ul><li>恭喜您打开了新世界的大门，这里可以看动漫、看直播、看影评、看短片、学英语、学编程、学PS。。。而且还没有广告</li></ul></li></ul><blockquote><p>直播</p></blockquote><ul><li><a href="https://zhibo.at/" target="_blank" rel="noopener">Z直播</a><ul><li>管站貌似挂了，同名app确实好用</li></ul></li></ul><h2 id="学习"><a href="#学习" class="headerlink" title="学习"></a>学习</h2><blockquote><p>资讯</p></blockquote><ul><li><a href="https://www.zhihu.com/" target="_blank" rel="noopener">知乎</a><ul><li>有事问知乎</li></ul></li></ul><blockquote><p>英语</p></blockquote><ul><li><a href="https://www.iyyxz.com/" target="_blank" rel="noopener">爱英语小站</a></li></ul>]]></content>
       
       
       <categories>
@@ -258,11 +258,34 @@
     </entry>
     
     <entry>
+      <title>电子书资源</title>
+      <link href="/posts/11288.html"/>
+      <url>/posts/11288.html</url>
+      
+        <content type="html"><![CDATA[<ul><li>电子书，爱下不下</li></ul><a id="more"></a><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><h2 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h2><h2 id="语文"><a href="#语文" class="headerlink" title="语文"></a>语文</h2><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://pan.baidu.com/disk/home?#/all?path=%2F&amp;vmode=list" target="_blank" rel="noopener">主力地址筹备中</a></li></ul><pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/my.css&quot;&gt;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 资源 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 电子书 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>英语学习资源</title>
       <link href="/posts/39100.html"/>
       <url>/posts/39100.html</url>
       
-        <content type="html"><![CDATA[<blockquote><p>用“暗时间”学英语</p></blockquote><a id="more"></a><h2 id="词典"><a href="#词典" class="headerlink" title="词典"></a>词典</h2><blockquote><p>Windows</p></blockquote><ul><li><p><a href="https://www.eudic.net" target="_blank" rel="noopener">欧路词典</a></p></li><li><p><a href="https://www.mdict.cn" target="_blank" rel="noopener">mdict</a></p><ul><li>据说windows下mdict比欧路词典好用</li></ul></li></ul><blockquote><p>安卓</p></blockquote><ul><li><p>深蓝词典</p></li><li><p>欧路词典破解版</p></li></ul><h2 id="词库"><a href="#词库" class="headerlink" title="词库"></a>词库</h2><h2 id="英语学习站点"><a href="#英语学习站点" class="headerlink" title="英语学习站点"></a>英语学习站点</h2><ul><li><a href="https://site.douban.com/195274/" target="_blank" rel="noopener">奶爸的英语教室</a></li></ul><h2 id="英语学习视频"><a href="#英语学习视频" class="headerlink" title="英语学习视频"></a>英语学习视频</h2><blockquote><p>看英语口语视频上B站即可</p></blockquote><ul><li><p>跟瑞秋Rachel学口语</p></li><li><p>Lisa美语教程</p></li></ul><p>11111111</p>]]></content>
+        <content type="html"><![CDATA[<ul><li>用“暗时间”学英语</li></ul><a id="more"></a><h2 id="词典"><a href="#词典" class="headerlink" title="词典"></a>词典</h2><blockquote><p>Windows</p></blockquote><ul><li><p><a href="https://www.eudic.net" target="_blank" rel="noopener">欧路词典</a></p></li><li><p><a href="https://www.mdict.cn" target="_blank" rel="noopener">mdict</a></p><ul><li>据说windows下mdict比欧路词典好用</li></ul></li></ul><blockquote><p>安卓</p></blockquote><ul><li><p>深蓝词典</p></li><li><p>欧路词典破解版</p></li></ul><h2 id="词库"><a href="#词库" class="headerlink" title="词库"></a>词库</h2><h2 id="英语学习站点"><a href="#英语学习站点" class="headerlink" title="英语学习站点"></a>英语学习站点</h2><ul><li><a href="https://site.douban.com/195274/" target="_blank" rel="noopener">奶爸的英语教室</a></li></ul><h2 id="英语学习视频"><a href="#英语学习视频" class="headerlink" title="英语学习视频"></a>英语学习视频</h2><blockquote><p>看英语口语视频上B站即可</p></blockquote><ul><li><p>跟瑞秋Rachel学口语</p></li><li><p>Lisa美语教程</p></li></ul>]]></content>
       
       
       <categories>
@@ -281,34 +304,11 @@
     </entry>
     
     <entry>
-      <title>Hexo系列：Hexo主题matery的自定义修改</title>
-      <link href="/posts/19667.html"/>
-      <url>/posts/19667.html</url>
-      
-        <content type="html"><![CDATA[<a id="more"></a><h2 id="Matery官方库"><a href="#Matery官方库" class="headerlink" title="Matery官方库"></a>Matery官方库</h2><ul><li><a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank" rel="noopener">Matery</a></li><li><a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md" target="_blank" rel="noopener">帮助文档</a></li></ul><h2 id="把主页默认的英文菜单改成中文"><a href="#把主页默认的英文菜单改成中文" class="headerlink" title="把主页默认的英文菜单改成中文"></a>把主页默认的英文菜单改成中文</h2><p>进入主题目录<code>\themes\hexo-theme-matery</code>，打开<code>_config.yml</code>文件，修改为</p><pre><code>menu:  首页:    url: /    icon: fa-home  分类:    url: /categories    icon: fa-bookmark  标签:    url: /tags    icon: fa-tags  归档:    url: /archives    icon: fa-archive  关于:    url: /about    icon: fa-user-circle-o  友情链接:    url: /friends    icon: fa-address-book</code></pre><h3 id="修改首页页脚版权声明"><a href="#修改首页页脚版权声明" class="headerlink" title="修改首页页脚版权声明"></a>修改首页页脚版权声明</h3><p>进入目录<code>\themes\hexo-theme-matery\layout\_partial</code>，打开<code>footer.ejs</code>文件，修改为</p><pre><code>&lt;footer class=&quot;page-footer bg-color&quot;&gt;    &lt;div class=&quot;container row center-align&quot;&gt;        &lt;div class=&quot;col s12 m8 l8 copy-right&quot;&gt;            &amp;copy;2011-2018 &lt;a href=&quot;http://www.syteng.com&quot; target=&quot;_blank&quot;&gt;常青滕’s Blog&lt;/a&gt; 保留所有权利        &lt;/div&gt;        &lt;div class=&quot;col s12 m4 l4 social-link&quot;&gt;&lt;%- partial(&#39;_partial/social-link&#39;) %&gt;&lt;/div&gt;    &lt;/div&gt;&lt;/footer&gt;</code></pre><h3 id="修改logo、favicon和微信二维码等"><a href="#修改logo、favicon和微信二维码等" class="headerlink" title="修改logo、favicon和微信二维码等"></a>修改logo、favicon和微信二维码等</h3><p>进入目录<code>themes\hexo-theme-matery\source</code>，<code>themes\hexo-theme-matery\source\medias</code>，<code>themes\hexo-theme-matery\source\medias\reward</code>，修改相应文件即可</p><h2 id="新建Page"><a href="#新建Page" class="headerlink" title="新建Page"></a>新建Page</h2><h3 id="新建分类-categories-页"><a href="#新建分类-categories-页" class="headerlink" title="新建分类 categories 页"></a>新建分类 categories 页</h3><p>categories页是用来展示所有分类的页面，如果在你的博客source目录下还没有<code>categories/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;categories&quot;</code></p><pre><code>---title: categoriesdate: 2018-09-30 17:25:30type: &quot;categories&quot;layout: &quot;categories&quot;---</code></pre><h3 id="新建标签-tags-页"><a href="#新建标签-tags-页" class="headerlink" title="新建标签 tags 页"></a>新建标签 tags 页</h3><p>tags页是用来展示所有标签的页面，如果在你的博客source目录下还没有<code>tags/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;tags&quot;</code><br>编辑你刚刚新建的页面文件<code>/source/tags/index.md</code>，至少需要以下内容：</p><pre><code>---title: tagsdate: 2018-09-30 18:23:38type: &quot;tags&quot;layout: &quot;tags&quot;---</code></pre><h3 id="新建关于我-about-页"><a href="#新建关于我-about-页" class="headerlink" title="新建关于我 about 页"></a>新建关于我 about 页</h3><p>about页是用来展示关于我和我的博客信息的页面，如果在你的博客source目录下还没有<code>about/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;about&quot;</code><br>编辑你刚刚新建的页面文件<code>/source/about/index.md</code>，至少需要以下内容：</p><pre><code>---title: aboutdate: 2018-09-30 17:25:30type: &quot;about&quot;layout: &quot;about&quot;---</code></pre><h3 id="新建友情连接-friends-页（可选的）"><a href="#新建友情连接-friends-页（可选的）" class="headerlink" title="新建友情连接 friends 页（可选的）"></a>新建友情连接 friends 页（可选的）</h3><p>friends页是用来展示友情连接信息的页面，如果在你的博客source目录下还没有<code>friends/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;friends&quot;</code><br>编辑你刚刚新建的页面文件<code>/source/friends/index.md</code>，至少需要以下内容：</p><pre><code>---title: friendsdate: 2018-12-12 21:25:30type: &quot;friends&quot;layout: &quot;friends&quot;---</code></pre><p>同时，在你的博客source目录下新建_data目录，在_data目录中新建<code>friends.json</code>文件，文件内容如下所示：</p><pre><code>[{    &quot;avatar&quot;: &quot;http://image.luokangyuan.com/1_qq_27922023.jpg&quot;,    &quot;name&quot;: &quot;码酱&quot;,    &quot;introduction&quot;: &quot;我不是大佬，只是在追寻大佬的脚步&quot;,    &quot;url&quot;: &quot;http://luokangyuan.com/&quot;,    &quot;title&quot;: &quot;前去学习&quot;}, {    &quot;avatar&quot;: &quot;http://image.luokangyuan.com/4027734.jpeg&quot;,    &quot;name&quot;: &quot;闪烁之狐&quot;,    &quot;introduction&quot;: &quot;编程界大佬，技术牛，人还特别好，不懂的都可以请教大佬&quot;,    &quot;url&quot;: &quot;https://blinkfox.github.io/&quot;,    &quot;title&quot;: &quot;前去学习&quot;}, {    &quot;avatar&quot;: &quot;http://image.luokangyuan.com/avatar.jpg&quot;,    &quot;name&quot;: &quot;ja_rome&quot;,    &quot;introduction&quot;: &quot;平凡的脚步也可以走出伟大的行程&quot;,    &quot;url&quot;: &quot;ttps://me.csdn.net/jlh912008548&quot;,    &quot;title&quot;: &quot;前去学习&quot;}]</code></pre><h2 id="修改社交链接"><a href="#修改社交链接" class="headerlink" title="修改社交链接"></a>修改社交链接</h2><p>在主题文件的<code>/layout/_partial/social-link.ejs</code>文件中，你可以修改或添加你需要的社交链接地址</p><p>其中，社交图标在Font Awesome中搜索找到。以下是常用社交图标标识:</p><pre><code>Facebook: fa-facebookTwitter: fa-twitterGoogle-plus: fa-google-plusLinkedin: fa-linkedinTumblr: fa-tumblrMedium: fa-mediumSlack: fa-slack新浪微博: fa-weibo微信: fa-wechatQQ: fa-qq</code></pre><h2 id="自定义主页文字，解除与subtitle和description的绑定"><a href="#自定义主页文字，解除与subtitle和description的绑定" class="headerlink" title="自定义主页文字，解除与subtitle和description的绑定"></a>自定义主页文字，解除与subtitle和description的绑定</h2><p>进入博客根目录，在<code>_config.yml</code>文件中添加字段</p><pre><code># 自定义的matery_Theme首页文字  matery_subtitle: 常青滕’s Blogmatery_description: 念念不忘，必有回响</code></pre><ul><li>打开目录<code>themes\hexo-theme-matery\layout\_partial\bg-cover.ejs</code>文件</li><li>将<code>config.subtitle</code>和<code>config.subtitle</code>字段替换为<code>config.matery_subtitle</code>和<code>config.matery_subtitle</code>即可</li></ul><h2 id="自定义主页文章卡片中的摘要内容"><a href="#自定义主页文章卡片中的摘要内容" class="headerlink" title="自定义主页文章卡片中的摘要内容"></a>自定义主页文章卡片中的摘要内容</h2><ul><li>修改目录<code>\themes\hexo-theme-matery\layout\</code>目录下的<code>index.ejs</code>、<code>archive.ejs</code>、<code>category.ejs</code>文件</li><li>将<code>&lt;div class=&quot;summary&quot;&gt;&lt;%- strip_html(post.content).substring(0, 70) %&gt;</code>修改为<code>&lt;div class=&quot;summary&quot;&gt;&lt;%- strip_html(post.excerpt).substring(0, 70) %&gt;</code></li><li>在编写文章的时候，在文章中插入标签<code>&lt;!-- more --&gt;</code>，标签<code>&lt;!-- more --&gt;</code>以上的内容为文章摘要，摘要中的前70个字符现在在主页文章卡片中</li></ul><h2 id="美化文章中超链接，添加变色效果和椭圆边框"><a href="#美化文章中超链接，添加变色效果和椭圆边框" class="headerlink" title="美化文章中超链接，添加变色效果和椭圆边框"></a>美化文章中超链接，添加变色效果和椭圆边框</h2><p>打开/source/css/my.css，如果主题没有自定义css功能，可以在主题css中添加内容<br>        /<em>   给超链接增加特效      </em>/<br>        .dt-p {<br>            background-color: white;<br>            border: 1px solid #333;<br>            border-radius: 45px;<br>            width: auto;<br>            height: auto;<br>            padding: 9px 45px 9px 45px;<br>            text-align: center;<br>            display: inline;   /<em>后面无换行，宽度随内容变化</em>/<br>        }</p><pre><code>    .dt-p:hover {        background-color: black;    }    #dt-a {        text-decoration:none !important; /*去掉超链接下划线*/    }    #dt-span {        color: white;        mix-blend-mode: difference;  /*颜色反相*/    }</code></pre><p>博文中需要加效果的链接代码如下(class、ID名称与css中一致)</p><pre><code>&lt;div&gt;        &lt;a href=&quot;/posts/41119.html&quot; id=dt-a&gt;&lt;p class=dt-p&gt;&lt;span id=dt-span&gt;Windows软件推荐&lt;/span&gt;&lt;/p&gt;&lt;/a&gt;&lt;br&gt;        &lt;/div&gt;</code></pre><p>实际效果如图<br><img src="http://pk535c0ah.bkt.clouddn.com/static//images/2018-12-27-09-21-38.gif"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 文章 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>资源汇总</title>
       <link href="/posts/4932.html"/>
       <url>/posts/4932.html</url>
       
-        <content type="html"><![CDATA[<blockquote><p>博主常用的网站、APP、软件收录在此</p></blockquote><a id="more"></a><h2 id="常用入口"><a href="#常用入口" class="headerlink" title="常用入口"></a>常用入口</h2><div><br>        <a href="/posts/41119.html" id="dt-a"><p class="dt-p"><span id="dt-span">Windows软件推荐</span></p></a><br><br>    <a href="/posts/38260.html" id="dt-a"><p class="dt-p"><span id="dt-span">安卓软件推荐</span></p></a><br><br>    <a href="/posts/39100.html" id="dt-a"><p class="dt-p"><span id="dt-span">英语学习资源</span></p></a><br><br>    <a href="/posts/11288.html" id="dt-a"><p class="dt-p"><span id="dt-span">电子书资源</span></p></a><br>  </div>]]></content>
+        <content type="html"><![CDATA[<ul><li>博主常用的网站、APP、软件收录在此</li></ul><a id="more"></a><h2 id="常用入口"><a href="#常用入口" class="headerlink" title="常用入口"></a>常用入口</h2><div><br>        <a href="/posts/41119.html" id="dt-a"><p class="dt-p"><span id="dt-span">Windows软件推荐</span></p></a><br><br>    <a href="/posts/38260.html" id="dt-a"><p class="dt-p"><span id="dt-span">安卓软件推荐</span></p></a><br><br>    <a href="/posts/39100.html" id="dt-a"><p class="dt-p"><span id="dt-span">英语学习资源</span></p></a><br><br>    <a href="/posts/11288.html" id="dt-a"><p class="dt-p"><span id="dt-span">电子书资源</span></p></a><br>  </div>]]></content>
       
       
       <categories>
@@ -354,7 +354,7 @@
       <link href="/posts/41119.html"/>
       <url>/posts/41119.html</url>
       
-        <content type="html"><![CDATA[<blockquote><p>自用软件，必属精品<br><a id="more"></a></p></blockquote><h2 id="办公"><a href="#办公" class="headerlink" title="办公"></a>办公</h2><blockquote><p>Xmind破解版</p></blockquote><ul><li>Xmind思维导图</li></ul><blockquote><p>mathtype</p></blockquote><ul><li>数学公式软件</li></ul><blockquote><p>几何画板破解版</p></blockquote><ul><li>数学作图软件</li></ul><blockquote><p>天若OCR文字识别</p></blockquote><blockquote><p>Office 2016</p></blockquote><blockquote><p>Adobe Acrobat DC</p></blockquote><ul><li>大厂出品的PDF笔记软件</li></ul><blockquote><p><a href="http://blog.bahraniapps.com/gifcam/" target="_blank" rel="noopener">gifcam</a> </p></blockquote><ul><li>屏幕录制生成gif</li></ul><blockquote><p>Adobe Photoshop CC</p></blockquote><ul><li>修图神器</li></ul><blockquote><p>Portraiture</p></blockquote><ul><li>PS磨皮滤镜</li></ul><blockquote><p>Vertus Fluid Mask</p></blockquote><ul><li>PS抠图滤镜</li></ul><h2 id="下载工具"><a href="#下载工具" class="headerlink" title="下载工具"></a>下载工具</h2><blockquote><p>迅雷极速版</p></blockquote><ul><li>被诟病最多的迅雷，依然离不开它</li></ul><h2 id="录视频"><a href="#录视频" class="headerlink" title="录视频"></a>录视频</h2><blockquote><p><a href="https://obsproject.com/" target="_blank" rel="noopener">OBS Studio</a></p><ul><li>最流行的直播推流软件</li></ul></blockquote><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><blockquote><p><a href="http://www.winclassictools.cn/" target="_blank" rel="noopener">win10输入法经典切换</a></p></blockquote><ul><li>让win10也可以Ctrl+Shift切换中英输入法</li></ul><blockquote><p><a href="http://www.ldmnq.com/" target="_blank" rel="noopener">雷电模拟器</a></p></blockquote><ul><li>博主用过很多模拟器，最后发现雷电模拟器最适合</li></ul><blockquote><p><a href="https://browser.360.cn/ee/" target="_blank" rel="noopener">360极速浏览器</a></p></blockquote><ul><li>360还是有几款良心之作的，安卓的极速浏览器也是很良心的，还有曾经的360手机卫士极客版</li></ul><p>##</p><blockquote><p><a href="http://ypsuperkey.meek.com.cn/" target="_blank" rel="noopener">云盘万能钥匙</a></p></blockquote><ul><li>chrome插件，百度网盘钥匙</li></ul><blockquote><p><a href="https://tampermonkey.net/" target="_blank" rel="noopener">Tampermonkey</a></p></blockquote><pre><code>* chrome插件，脚本插件（必装）</code></pre><blockquote><p>Adblock</p><ul><li>chrome插件，拦截广告</li></ul></blockquote><blockquote><p><a href="http://www.dllprotect.com/soft/4.html" target="_blank" rel="noopener">百度网盘目录导出工具</a></p></blockquote><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><blockquote><p><a href="https://tools.enfamily.cn/Twilight.htm" target="_blank" rel="noopener">Twilight复读机</a></p></blockquote><blockquote><p><a href="https://www.eudic.net/" target="_blank" rel="noopener">欧路词典</a></p></blockquote><blockquote><p>词库</p></blockquote><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.lanzous.com/b529855/" target="_blank" rel="noopener">主力地址</a>  暗号:g4r9</li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li>自用软件，必属精品</li></ul><a id="more"></a><h2 id="办公"><a href="#办公" class="headerlink" title="办公"></a>办公</h2><blockquote><p>Xmind破解版</p></blockquote><ul><li>Xmind思维导图</li></ul><blockquote><p>mathtype</p></blockquote><ul><li>数学公式软件</li></ul><blockquote><p>几何画板破解版</p></blockquote><ul><li>数学作图软件</li></ul><blockquote><p>天若OCR文字识别</p></blockquote><blockquote><p>Office 2016</p></blockquote><blockquote><p>Adobe Acrobat DC</p></blockquote><ul><li>大厂出品的PDF笔记软件</li></ul><blockquote><p><a href="http://blog.bahraniapps.com/gifcam/" target="_blank" rel="noopener">gifcam</a> </p></blockquote><ul><li>屏幕录制生成gif</li></ul><blockquote><p>Adobe Photoshop CC</p></blockquote><ul><li>修图神器</li></ul><blockquote><p>Portraiture</p></blockquote><ul><li>PS磨皮滤镜</li></ul><blockquote><p>Vertus Fluid Mask</p></blockquote><ul><li>PS抠图滤镜</li></ul><h2 id="下载工具"><a href="#下载工具" class="headerlink" title="下载工具"></a>下载工具</h2><blockquote><p>迅雷极速版</p></blockquote><ul><li>被诟病最多的迅雷，依然离不开它</li></ul><h2 id="录视频"><a href="#录视频" class="headerlink" title="录视频"></a>录视频</h2><blockquote><p><a href="https://obsproject.com/" target="_blank" rel="noopener">OBS Studio</a></p><ul><li>最流行的直播推流软件</li></ul></blockquote><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><blockquote><p><a href="http://www.winclassictools.cn/" target="_blank" rel="noopener">win10输入法经典切换</a></p></blockquote><ul><li>让win10也可以Ctrl+Shift切换中英输入法</li></ul><blockquote><p><a href="http://www.ldmnq.com/" target="_blank" rel="noopener">雷电模拟器</a></p></blockquote><ul><li>博主用过很多模拟器，最后发现雷电模拟器最适合</li></ul><blockquote><p><a href="https://browser.360.cn/ee/" target="_blank" rel="noopener">360极速浏览器</a></p></blockquote><ul><li>360还是有几款良心之作的，安卓的极速浏览器也是很良心的，还有曾经的360手机卫士极客版</li></ul><p>##</p><blockquote><p><a href="http://ypsuperkey.meek.com.cn/" target="_blank" rel="noopener">云盘万能钥匙</a></p></blockquote><ul><li>chrome插件，百度网盘钥匙</li></ul><blockquote><p><a href="https://tampermonkey.net/" target="_blank" rel="noopener">Tampermonkey</a></p></blockquote><pre><code>* chrome插件，脚本插件（必装）</code></pre><blockquote><p>Adblock</p><ul><li>chrome插件，拦截广告</li></ul></blockquote><blockquote><p><a href="http://www.dllprotect.com/soft/4.html" target="_blank" rel="noopener">百度网盘目录导出工具</a></p></blockquote><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><blockquote><p><a href="https://tools.enfamily.cn/Twilight.htm" target="_blank" rel="noopener">Twilight复读机</a></p></blockquote><blockquote><p><a href="https://www.eudic.net/" target="_blank" rel="noopener">欧路词典</a></p></blockquote><blockquote><p>词库</p></blockquote><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.lanzous.com/b529855/" target="_blank" rel="noopener">主力地址</a>  暗号:g4r9</li></ul>]]></content>
       
       
       <categories>
@@ -373,13 +373,25 @@
     </entry>
     
     <entry>
-      <title></title>
-      <link href="/posts/0.html"/>
-      <url>/posts/0.html</url>
+      <title>安卓软件推荐</title>
+      <link href="/posts/38260.html"/>
+      <url>/posts/38260.html</url>
       
-        <content type="html"><![CDATA[<hr><p>title: 安卓软件推荐<br>author: 常青滕</p><h1 id="img-source-images-xxx-jpg-or-http-xxx-com-xxx-jpg"><a href="#img-source-images-xxx-jpg-or-http-xxx-com-xxx-jpg" class="headerlink" title="img: /source/images/xxx.jpg # or:http://xxx.com/xxx.jpg"></a>img: /source/images/xxx.jpg # or:<a href="http://xxx.com/xxx.jpg" target="_blank" rel="noopener">http://xxx.com/xxx.jpg</a></h1><p>top: false<br>mathjax: false<br>categories:</p><ul><li>资源<br>tags:</li><li>安卓<br>abbrlink: 38260<br>—自用软件，个个精品<a id="more"></a></li></ul><h2 id="刷机"><a href="#刷机" class="headerlink" title="刷机"></a>刷机</h2><p><code>小米8青春版专用</code></p><blockquote><p>recovery  </p></blockquote><blockquote><p>magisk</p></blockquote><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><blockquote><p>幸运破解器  </p><ul><li>可以破解某些游戏，主要用来去除一些app的广告，需root</li></ul></blockquote><blockquote><p>SD Maid破解版  </p></blockquote><blockquote><p>BATKill  </p></blockquote><blockquote><p>MT管理器破解  </p></blockquote><ul><li>一款强大的文件管理器</li></ul><blockquote><p>Adaway</p></blockquote><ul><li>hosts去广告app，不占后台资源</li></ul><blockquote><p>myAndroidtools</p></blockquote><ul><li>禁用组件，减少毒瘤后台服务，需root</li></ul><blockquote><p>Dir</p><ul><li>讲广告目录替换为空文件，修改权限，防止毒瘤软件耍流氓</li></ul></blockquote><h2 id="影音"><a href="#影音" class="headerlink" title="影音"></a>影音</h2><blockquote><p>腾讯视频去广告</p></blockquote><ul><li>去掉广告，但是微信也不能登录</li></ul><blockquote><p>哔哩哔哩免流版 </p></blockquote><ul><li>大王卡居然也可以免流，福利</li></ul><blockquote><p>Z直播  #官方下载  </p></blockquote><ul><li>好用的直播聚合app（不是电视台节目直播）</li></ul><blockquote><p>那好吧  #暗号1024</p></blockquote><ul><li>老司机福利app</li></ul><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><blockquote><p>每日英语听力破解  </p></blockquote><ul><li>好多好多英语听力资源</li></ul><blockquote><p>百词斩</p></blockquote><ul><li>背单词啦  </li></ul><blockquote><p>欧路词典破解</p></blockquote><ul><li>好用的英语词典，可以跨程序查词</li></ul><h2 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h2><blockquote><p>百度网盘VIP  </p></blockquote><ul><li>配合雷电模拟器可以在PC上摆脱百度网盘速度限制</li></ul><blockquote><p>迅雷去广告  </p></blockquote><ul><li>配合“那好吧”下福利</li></ul><blockquote><p>airdroid  </p></blockquote><ul><li>通过wifi管理手机，不用接数据线了</li></ul><h2 id="V匹嗯"><a href="#V匹嗯" class="headerlink" title="V匹嗯"></a>V匹嗯</h2><blockquote><p>某灯</p></blockquote><ul><li>知名番强app，稳定性不好（刚需还是搬瓦工自己搭梯子吧）</li></ul><blockquote><p>sai疯</p></blockquote><ul><li>知名番强app，稳定性不好（刚需还是搬瓦工自己搭梯子吧）</li></ul><blockquote><p>黑猫</p></blockquote><h2 id="办公"><a href="#办公" class="headerlink" title="办公"></a>办公</h2><blockquote><p>多看阅读无广告  </p></blockquote><ul><li>自用主力阅读器</li></ul><blockquote><p>Xmind破解 </p></blockquote><ul><li>知名思维导图手机版，凑合用吧</li></ul><blockquote><p>扫描全能王破解 </p></blockquote><ul><li>功能很强大，部分破解，凑合用吧</li></ul><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><blockquote><p>Kindle  </p></blockquote><ul><li>自用主力阅读器2号</li></ul><blockquote><p>Smart AudioBook Player</p></blockquote><ul><li>听英语电子书的本地播放器  </li></ul><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><blockquote><p>PPIICC</p></blockquote><ul><li>拼图软件  </li></ul><blockquote><p>爱壁纸去广告</p></blockquote><ul><li>壁纸库蛮大</li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.lanzous.com/b529854/" target="_blank" rel="noopener">主力地址</a>  暗号:dwlf</li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li>自用软件，个个精品</li></ul><a id="more"></a><h2 id="刷机"><a href="#刷机" class="headerlink" title="刷机"></a>刷机</h2><p><code>小米8青春版专用</code></p><blockquote><p>recovery  </p></blockquote><blockquote><p>magisk</p></blockquote><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><blockquote><p>幸运破解器  </p><ul><li>可以破解某些游戏，主要用来去除一些app的广告，需root</li></ul></blockquote><blockquote><p>SD Maid破解版  </p></blockquote><blockquote><p>BATKill  </p></blockquote><blockquote><p>MT管理器破解  </p></blockquote><ul><li>一款强大的文件管理器</li></ul><blockquote><p>Adaway</p></blockquote><ul><li>hosts去广告app，不占后台资源</li></ul><blockquote><p>myAndroidtools</p></blockquote><ul><li>禁用组件，减少毒瘤后台服务，需root</li></ul><blockquote><p>Dir</p><ul><li>讲广告目录替换为空文件，修改权限，防止毒瘤软件耍流氓</li></ul></blockquote><h2 id="影音"><a href="#影音" class="headerlink" title="影音"></a>影音</h2><blockquote><p>腾讯视频去广告</p></blockquote><ul><li>去掉广告，但是微信也不能登录</li></ul><blockquote><p>哔哩哔哩免流版 </p></blockquote><ul><li>大王卡居然也可以免流，福利</li></ul><blockquote><p>Z直播  #官方下载  </p></blockquote><ul><li>好用的直播聚合app（不是电视台节目直播）</li></ul><blockquote><p>那好吧  #暗号1024</p></blockquote><ul><li>老司机福利app</li></ul><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><blockquote><p>每日英语听力破解  </p></blockquote><ul><li>好多好多英语听力资源</li></ul><blockquote><p>百词斩</p></blockquote><ul><li>背单词啦  </li></ul><blockquote><p>欧路词典破解</p></blockquote><ul><li>好用的英语词典，可以跨程序查词</li></ul><h2 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h2><blockquote><p>百度网盘VIP  </p></blockquote><ul><li>配合雷电模拟器可以在PC上摆脱百度网盘速度限制</li></ul><blockquote><p>迅雷去广告  </p></blockquote><ul><li>配合“那好吧”下福利</li></ul><blockquote><p>airdroid  </p></blockquote><ul><li>通过wifi管理手机，不用接数据线了</li></ul><h2 id="V匹嗯"><a href="#V匹嗯" class="headerlink" title="V匹嗯"></a>V匹嗯</h2><blockquote><p>某灯</p></blockquote><ul><li>知名番强app，稳定性不好（刚需还是搬瓦工自己搭梯子吧）</li></ul><blockquote><p>sai疯</p></blockquote><ul><li>知名番强app，稳定性不好（刚需还是搬瓦工自己搭梯子吧）</li></ul><blockquote><p>黑猫</p></blockquote><h2 id="办公"><a href="#办公" class="headerlink" title="办公"></a>办公</h2><blockquote><p>多看阅读无广告  </p></blockquote><ul><li>自用主力阅读器</li></ul><blockquote><p>Xmind破解 </p></blockquote><ul><li>知名思维导图手机版，凑合用吧</li></ul><blockquote><p>扫描全能王破解 </p></blockquote><ul><li>功能很强大，部分破解，凑合用吧</li></ul><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><blockquote><p>Kindle  </p></blockquote><ul><li>自用主力阅读器2号</li></ul><blockquote><p>Smart AudioBook Player</p></blockquote><ul><li>听英语电子书的本地播放器  </li></ul><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><blockquote><p>PPIICC</p></blockquote><ul><li>拼图软件  </li></ul><blockquote><p>爱壁纸去广告</p></blockquote><ul><li>壁纸库蛮大</li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.lanzous.com/b529854/" target="_blank" rel="noopener">主力地址</a>  暗号:dwlf</li></ul>]]></content>
       
       
+      <categories>
+          
+          <category> 资源 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 安卓 </tag>
+            
+        </tags>
       
     </entry>
     

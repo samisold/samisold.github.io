@@ -10,35 +10,7 @@
     </url>
 
     <url>
-        <loc>http://www.syteng.com/tags/links/</loc>
-        <lastmod>2018-12-27T04:30:47.051Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.syteng.com/tags/software/</loc>
-        <lastmod>2018-12-27T04:30:47.067Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.syteng.com/tags/eBook/</loc>
-        <lastmod>2018-12-27T04:30:47.067Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.syteng.com/tags/android/</loc>
-        <lastmod>2018-12-27T04:30:47.067Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://www.syteng.com/tags/Hexo/</loc>
+        <loc>http://www.syteng.com/tags/Photoshop/</loc>
         <lastmod>2018-12-27T04:30:47.098Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -52,15 +24,43 @@
     </url>
 
     <url>
-        <loc>http://www.syteng.com/tags/Photoshop/</loc>
-        <lastmod>2018-12-27T04:30:47.098Z</lastmod>
+        <loc>http://www.syteng.com/tags/English/</loc>
+        <lastmod>2018-12-27T05:15:40.237Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://www.syteng.com/tags/English/</loc>
-        <lastmod>2018-12-27T05:02:39.541Z</lastmod>
+        <loc>http://www.syteng.com/tags/eBook/</loc>
+        <lastmod>2018-12-27T05:15:46.406Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.syteng.com/tags/links/</loc>
+        <lastmod>2018-12-27T05:15:53.987Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.syteng.com/tags/android/</loc>
+        <lastmod>2018-12-27T05:16:05.305Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.syteng.com/tags/software/</loc>
+        <lastmod>2018-12-27T05:16:14.349Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://www.syteng.com/tags/Hexo/</loc>
+        <lastmod>2018-12-27T05:16:38.262Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
