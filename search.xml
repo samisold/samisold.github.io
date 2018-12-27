@@ -26,31 +26,6 @@
     </entry>
     
     <entry>
-      <title>PS系列：简单处理文档手机照片</title>
-      <link href="/posts/7251.html"/>
-      <url>/posts/7251.html</url>
-      
-        <content type="html"><![CDATA[<p>文档照片处理完直接打印<br><a id="more"></a></p><p><code>手机拍摄的文档照片，如果直接拿来打印，经常会遇到打印非常模糊甚至打不出来的情况。这个时候我们的主角PS就派上用场了。</code></p><blockquote><p>处理歪斜</p></blockquote><p><code>视情况而定，此步可略过</code></p><ul><li>滤镜-镜头矫正-拉一条线调整图像水平</li></ul><blockquote><p>高反差保留法</p></blockquote><ul><li>导入素材-新建图层两次</li><li>选中最上面的图层副本，更改混合模式为“滤色”</li><li>点击滤镜-其他-高反差保留-调节至预览效果最佳</li><li>Ctrl+Shift+Alt+E盖印图层</li><li>Ctrl+A全选-Ctrl+C复制-Q进入快速蒙版-Ctrl+V-Q退出快速蒙版-Ctrl+Shift+I反选-新建空白图层-Ctrl+delete填充黑色-Ctrl+D取消选区<br><code>到此线稿已经提取出来了</code></li></ul><blockquote><p>调整色阶</p></blockquote><ul><li>在线稿层底下新建空白图层-Alt+delete填充白色-Ctrl+Shift+Alt+E盖印图层-Ctrl+L调整色阶<br>Ctrl+Shift+S保存导出</li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 文章 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Photoshop </tag>
-            
-            <tag> 技巧 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>Hexo系列：Hexo官方资源</title>
       <link href="/posts/45119.html"/>
       <url>/posts/45119.html</url>
@@ -189,11 +164,11 @@
     </entry>
     
     <entry>
-      <title>Hexo系列：Hexo主题matery的自定义修改</title>
-      <link href="/posts/19667.html"/>
-      <url>/posts/19667.html</url>
+      <title>PS系列：简单处理文档手机照片</title>
+      <link href="/posts/7251.html"/>
+      <url>/posts/7251.html</url>
       
-        <content type="html"><![CDATA[<a id="more"></a><h2 id="Matery官方库"><a href="#Matery官方库" class="headerlink" title="Matery官方库"></a>Matery官方库</h2><ul><li><a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank" rel="noopener">Matery</a></li><li><a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md" target="_blank" rel="noopener">帮助文档</a></li></ul><h2 id="把主页默认的英文菜单改成中文"><a href="#把主页默认的英文菜单改成中文" class="headerlink" title="把主页默认的英文菜单改成中文"></a>把主页默认的英文菜单改成中文</h2><p>进入主题目录<code>\themes\hexo-theme-matery</code>，打开<code>_config.yml</code>文件，修改为</p><pre><code>menu:  首页:    url: /    icon: fa-home  分类:    url: /categories    icon: fa-bookmark  标签:    url: /tags    icon: fa-tags  归档:    url: /archives    icon: fa-archive  关于:    url: /about    icon: fa-user-circle-o  友情链接:    url: /friends    icon: fa-address-book</code></pre><h3 id="修改首页页脚版权声明"><a href="#修改首页页脚版权声明" class="headerlink" title="修改首页页脚版权声明"></a>修改首页页脚版权声明</h3><p>进入目录<code>\themes\hexo-theme-matery\layout\_partial</code>，打开<code>footer.ejs</code>文件，修改为</p><pre><code>&lt;footer class=&quot;page-footer bg-color&quot;&gt;    &lt;div class=&quot;container row center-align&quot;&gt;        &lt;div class=&quot;col s12 m8 l8 copy-right&quot;&gt;            &amp;copy;2011-2018 &lt;a href=&quot;http://www.syteng.com&quot; target=&quot;_blank&quot;&gt;常青滕’s Blog&lt;/a&gt; 保留所有权利        &lt;/div&gt;        &lt;div class=&quot;col s12 m4 l4 social-link&quot;&gt;&lt;%- partial(&#39;_partial/social-link&#39;) %&gt;&lt;/div&gt;    &lt;/div&gt;&lt;/footer&gt;</code></pre><h3 id="修改logo、favicon和微信二维码等"><a href="#修改logo、favicon和微信二维码等" class="headerlink" title="修改logo、favicon和微信二维码等"></a>修改logo、favicon和微信二维码等</h3><p>进入目录<code>themes\hexo-theme-matery\source</code>，<code>themes\hexo-theme-matery\source\medias</code>，<code>themes\hexo-theme-matery\source\medias\reward</code>，修改相应文件即可</p><h2 id="新建Page"><a href="#新建Page" class="headerlink" title="新建Page"></a>新建Page</h2><h3 id="新建分类-categories-页"><a href="#新建分类-categories-页" class="headerlink" title="新建分类 categories 页"></a>新建分类 categories 页</h3><p>categories页是用来展示所有分类的页面，如果在你的博客source目录下还没有<code>categories/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;categories&quot;</code></p><pre><code>---title: categoriesdate: 2018-09-30 17:25:30type: &quot;categories&quot;layout: &quot;categories&quot;---</code></pre><h3 id="新建标签-tags-页"><a href="#新建标签-tags-页" class="headerlink" title="新建标签 tags 页"></a>新建标签 tags 页</h3><p>tags页是用来展示所有标签的页面，如果在你的博客source目录下还没有<code>tags/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;tags&quot;</code><br>编辑你刚刚新建的页面文件<code>/source/tags/index.md</code>，至少需要以下内容：</p><pre><code>---title: tagsdate: 2018-09-30 18:23:38type: &quot;tags&quot;layout: &quot;tags&quot;---</code></pre><h3 id="新建关于我-about-页"><a href="#新建关于我-about-页" class="headerlink" title="新建关于我 about 页"></a>新建关于我 about 页</h3><p>about页是用来展示关于我和我的博客信息的页面，如果在你的博客source目录下还没有<code>about/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;about&quot;</code><br>编辑你刚刚新建的页面文件<code>/source/about/index.md</code>，至少需要以下内容：</p><pre><code>---title: aboutdate: 2018-09-30 17:25:30type: &quot;about&quot;layout: &quot;about&quot;---</code></pre><h3 id="新建友情连接-friends-页（可选的）"><a href="#新建友情连接-friends-页（可选的）" class="headerlink" title="新建友情连接 friends 页（可选的）"></a>新建友情连接 friends 页（可选的）</h3><p>friends页是用来展示友情连接信息的页面，如果在你的博客source目录下还没有<code>friends/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;friends&quot;</code><br>编辑你刚刚新建的页面文件<code>/source/friends/index.md</code>，至少需要以下内容：</p><pre><code>---title: friendsdate: 2018-12-12 21:25:30type: &quot;friends&quot;layout: &quot;friends&quot;---</code></pre><p>同时，在你的博客source目录下新建_data目录，在_data目录中新建<code>friends.json</code>文件，文件内容如下所示：</p><pre><code>[{    &quot;avatar&quot;: &quot;http://image.luokangyuan.com/1_qq_27922023.jpg&quot;,    &quot;name&quot;: &quot;码酱&quot;,    &quot;introduction&quot;: &quot;我不是大佬，只是在追寻大佬的脚步&quot;,    &quot;url&quot;: &quot;http://luokangyuan.com/&quot;,    &quot;title&quot;: &quot;前去学习&quot;}, {    &quot;avatar&quot;: &quot;http://image.luokangyuan.com/4027734.jpeg&quot;,    &quot;name&quot;: &quot;闪烁之狐&quot;,    &quot;introduction&quot;: &quot;编程界大佬，技术牛，人还特别好，不懂的都可以请教大佬&quot;,    &quot;url&quot;: &quot;https://blinkfox.github.io/&quot;,    &quot;title&quot;: &quot;前去学习&quot;}, {    &quot;avatar&quot;: &quot;http://image.luokangyuan.com/avatar.jpg&quot;,    &quot;name&quot;: &quot;ja_rome&quot;,    &quot;introduction&quot;: &quot;平凡的脚步也可以走出伟大的行程&quot;,    &quot;url&quot;: &quot;ttps://me.csdn.net/jlh912008548&quot;,    &quot;title&quot;: &quot;前去学习&quot;}]</code></pre><h2 id="修改社交链接"><a href="#修改社交链接" class="headerlink" title="修改社交链接"></a>修改社交链接</h2><p>在主题文件的<code>/layout/_partial/social-link.ejs</code>文件中，你可以修改或添加你需要的社交链接地址</p><p>其中，社交图标在Font Awesome中搜索找到。以下是常用社交图标标识:</p><pre><code>Facebook: fa-facebookTwitter: fa-twitterGoogle-plus: fa-google-plusLinkedin: fa-linkedinTumblr: fa-tumblrMedium: fa-mediumSlack: fa-slack新浪微博: fa-weibo微信: fa-wechatQQ: fa-qq</code></pre><h2 id="自定义主页文字，解除与subtitle和description的绑定"><a href="#自定义主页文字，解除与subtitle和description的绑定" class="headerlink" title="自定义主页文字，解除与subtitle和description的绑定"></a>自定义主页文字，解除与subtitle和description的绑定</h2><p>进入博客根目录，在<code>_config.yml</code>文件中添加字段</p><pre><code># 自定义的matery_Theme首页文字  matery_subtitle: 常青滕’s Blogmatery_description: 念念不忘，必有回响</code></pre><ul><li>打开目录<code>themes\hexo-theme-matery\layout\_partial\bg-cover.ejs</code>文件</li><li>将<code>config.subtitle</code>和<code>config.subtitle</code>字段替换为<code>config.matery_subtitle</code>和<code>config.matery_subtitle</code>即可</li></ul><h2 id="自定义主页文章卡片中的摘要内容"><a href="#自定义主页文章卡片中的摘要内容" class="headerlink" title="自定义主页文章卡片中的摘要内容"></a>自定义主页文章卡片中的摘要内容</h2><ul><li>修改目录<code>\themes\hexo-theme-matery\layout\</code>目录下的<code>index.ejs</code>、<code>archive.ejs</code>、<code>category.ejs</code>文件</li><li>将<code>&lt;div class=&quot;summary&quot;&gt;&lt;%- strip_html(post.content).substring(0, 70) %&gt;</code>修改为<code>&lt;div class=&quot;summary&quot;&gt;&lt;%- strip_html(post.excerpt).substring(0, 70) %&gt;</code></li><li>在编写文章的时候，在文章中插入标签<code>&lt;!-- more --&gt;</code>，标签<code>&lt;!-- more --&gt;</code>以上的内容为文章摘要，摘要中的前70个字符现在在主页文章卡片中</li></ul><h2 id="美化文章中超链接，添加变色效果和椭圆边框"><a href="#美化文章中超链接，添加变色效果和椭圆边框" class="headerlink" title="美化文章中超链接，添加变色效果和椭圆边框"></a>美化文章中超链接，添加变色效果和椭圆边框</h2><p>打开/source/css/my.css，如果主题没有自定义css功能，可以在主题css中添加内容<br>        /<em>   给超链接增加特效      </em>/<br>        .dt-p {<br>            background-color: white;<br>            border: 1px solid #333;<br>            border-radius: 45px;<br>            width: auto;<br>            height: auto;<br>            padding: 9px 45px 9px 45px;<br>            text-align: center;<br>            display: inline;   /<em>后面无换行，宽度随内容变化</em>/<br>        }</p><pre><code>    .dt-p:hover {        background-color: black;    }    #dt-a {        text-decoration:none !important; /*去掉超链接下划线*/    }    #dt-span {        color: white;        mix-blend-mode: difference;  /*颜色反相*/    }</code></pre><p>博文中需要加效果的链接代码如下(class、ID名称与css中一致)</p><pre><code>&lt;div&gt;        &lt;a href=&quot;/posts/41119.html&quot; id=dt-a&gt;&lt;p class=dt-p&gt;&lt;span id=dt-span&gt;Windows软件推荐&lt;/span&gt;&lt;/p&gt;&lt;/a&gt;&lt;br&gt;        &lt;/div&gt;</code></pre><p>实际效果如图<br><img src="http://pk535c0ah.bkt.clouddn.com/static//images/2018-12-27-09-21-38.gif"></p>]]></content>
+        <content type="html"><![CDATA[<p>文档照片处理完直接打印<br><a id="more"></a></p><p><code>手机拍摄的文档照片，如果直接拿来打印，经常会遇到打印非常模糊甚至打不出来的情况。这个时候我们的主角PS就派上用场了。</code></p><blockquote><p>处理歪斜</p></blockquote><p><code>视情况而定，此步可略过</code></p><ul><li>滤镜-镜头矫正-拉一条线调整图像水平</li></ul><blockquote><p>高反差保留法</p></blockquote><ul><li>导入素材-新建图层两次</li><li>选中最上面的图层副本，更改混合模式为“滤色”</li><li>点击滤镜-其他-高反差保留-调节至预览效果最佳</li><li>Ctrl+Shift+Alt+E盖印图层</li><li>Ctrl+A全选-Ctrl+C复制-Q进入快速蒙版-Ctrl+V-Q退出快速蒙版-Ctrl+Shift+I反选-新建空白图层-Ctrl+delete填充黑色-Ctrl+D取消选区<br><code>到此线稿已经提取出来了</code></li></ul><blockquote><p>调整色阶</p></blockquote><ul><li>在线稿层底下新建空白图层-Alt+delete填充白色-Ctrl+Shift+Alt+E盖印图层-Ctrl+L调整色阶<br>Ctrl+Shift+S保存导出</li></ul>]]></content>
       
       
       <categories>
@@ -205,7 +180,9 @@
       
         <tags>
             
-            <tag> Hexo </tag>
+            <tag> Photoshop </tag>
+            
+            <tag> 技巧 </tag>
             
         </tags>
       
@@ -235,29 +212,6 @@
     </entry>
     
     <entry>
-      <title>数学资源</title>
-      <link href="/posts/38261.html"/>
-      <url>/posts/38261.html</url>
-      
-        <content type="html"><![CDATA[<a id="more"></a><p><img title="图片标题" alt="图片说明" class="class1 class2" src="http://pk535c0ah.bkt.clouddn.com/static//images/2018-12-23-08-41-22.png"></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 资源 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 安卓 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>电子书资源</title>
       <link href="/posts/11288.html"/>
       <url>/posts/11288.html</url>
@@ -275,6 +229,29 @@
         <tags>
             
             <tag> 电子书 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>数学资源</title>
+      <link href="/posts/38261.html"/>
+      <url>/posts/38261.html</url>
+      
+        <content type="html"><![CDATA[<a id="more"></a><p><img title="图片标题" alt="图片说明" class="class1 class2" src="http://pk535c0ah.bkt.clouddn.com/static//images/2018-12-23-08-41-22.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 资源 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 安卓 </tag>
             
         </tags>
       
@@ -327,11 +304,11 @@
     </entry>
     
     <entry>
-      <title>用OBS Studio推流直播</title>
-      <link href="/posts/7252.html"/>
-      <url>/posts/7252.html</url>
+      <title>Hexo系列：Hexo主题matery的自定义修改</title>
+      <link href="/posts/19667.html"/>
+      <url>/posts/19667.html</url>
       
-        <content type="html"><![CDATA[<p>不堪回首的直播往事~<br><a id="more"></a></p><p>obs官网</p>]]></content>
+        <content type="html"><![CDATA[<a id="more"></a><h2 id="Matery官方库"><a href="#Matery官方库" class="headerlink" title="Matery官方库"></a>Matery官方库</h2><ul><li><a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank" rel="noopener">Matery</a></li><li><a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md" target="_blank" rel="noopener">帮助文档</a></li></ul><h2 id="把主页默认的英文菜单改成中文"><a href="#把主页默认的英文菜单改成中文" class="headerlink" title="把主页默认的英文菜单改成中文"></a>把主页默认的英文菜单改成中文</h2><p>进入主题目录<code>\themes\hexo-theme-matery</code>，打开<code>_config.yml</code>文件，修改为</p><pre><code>menu:  首页:    url: /    icon: fa-home  分类:    url: /categories    icon: fa-bookmark  标签:    url: /tags    icon: fa-tags  归档:    url: /archives    icon: fa-archive  关于:    url: /about    icon: fa-user-circle-o  友情链接:    url: /friends    icon: fa-address-book</code></pre><h3 id="修改首页页脚版权声明"><a href="#修改首页页脚版权声明" class="headerlink" title="修改首页页脚版权声明"></a>修改首页页脚版权声明</h3><p>进入目录<code>\themes\hexo-theme-matery\layout\_partial</code>，打开<code>footer.ejs</code>文件，修改为</p><pre><code>&lt;footer class=&quot;page-footer bg-color&quot;&gt;    &lt;div class=&quot;container row center-align&quot;&gt;        &lt;div class=&quot;col s12 m8 l8 copy-right&quot;&gt;            &amp;copy;2011-2018 &lt;a href=&quot;http://www.syteng.com&quot; target=&quot;_blank&quot;&gt;常青滕’s Blog&lt;/a&gt; 保留所有权利        &lt;/div&gt;        &lt;div class=&quot;col s12 m4 l4 social-link&quot;&gt;&lt;%- partial(&#39;_partial/social-link&#39;) %&gt;&lt;/div&gt;    &lt;/div&gt;&lt;/footer&gt;</code></pre><h3 id="修改logo、favicon和微信二维码等"><a href="#修改logo、favicon和微信二维码等" class="headerlink" title="修改logo、favicon和微信二维码等"></a>修改logo、favicon和微信二维码等</h3><p>进入目录<code>themes\hexo-theme-matery\source</code>，<code>themes\hexo-theme-matery\source\medias</code>，<code>themes\hexo-theme-matery\source\medias\reward</code>，修改相应文件即可</p><h2 id="新建Page"><a href="#新建Page" class="headerlink" title="新建Page"></a>新建Page</h2><h3 id="新建分类-categories-页"><a href="#新建分类-categories-页" class="headerlink" title="新建分类 categories 页"></a>新建分类 categories 页</h3><p>categories页是用来展示所有分类的页面，如果在你的博客source目录下还没有<code>categories/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;categories&quot;</code></p><pre><code>---title: categoriesdate: 2018-09-30 17:25:30type: &quot;categories&quot;layout: &quot;categories&quot;---</code></pre><h3 id="新建标签-tags-页"><a href="#新建标签-tags-页" class="headerlink" title="新建标签 tags 页"></a>新建标签 tags 页</h3><p>tags页是用来展示所有标签的页面，如果在你的博客source目录下还没有<code>tags/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;tags&quot;</code><br>编辑你刚刚新建的页面文件<code>/source/tags/index.md</code>，至少需要以下内容：</p><pre><code>---title: tagsdate: 2018-09-30 18:23:38type: &quot;tags&quot;layout: &quot;tags&quot;---</code></pre><h3 id="新建关于我-about-页"><a href="#新建关于我-about-页" class="headerlink" title="新建关于我 about 页"></a>新建关于我 about 页</h3><p>about页是用来展示关于我和我的博客信息的页面，如果在你的博客source目录下还没有<code>about/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;about&quot;</code><br>编辑你刚刚新建的页面文件<code>/source/about/index.md</code>，至少需要以下内容：</p><pre><code>---title: aboutdate: 2018-09-30 17:25:30type: &quot;about&quot;layout: &quot;about&quot;---</code></pre><h3 id="新建友情连接-friends-页（可选的）"><a href="#新建友情连接-friends-页（可选的）" class="headerlink" title="新建友情连接 friends 页（可选的）"></a>新建友情连接 friends 页（可选的）</h3><p>friends页是用来展示友情连接信息的页面，如果在你的博客source目录下还没有<code>friends/index.md</code>文件，那么你就需要新建一个，命令如下：</p><p><code>hexo new page &quot;friends&quot;</code><br>编辑你刚刚新建的页面文件<code>/source/friends/index.md</code>，至少需要以下内容：</p><pre><code>---title: friendsdate: 2018-12-12 21:25:30type: &quot;friends&quot;layout: &quot;friends&quot;---</code></pre><p>同时，在你的博客source目录下新建_data目录，在_data目录中新建<code>friends.json</code>文件，文件内容如下所示：</p><pre><code>[{    &quot;avatar&quot;: &quot;http://image.luokangyuan.com/1_qq_27922023.jpg&quot;,    &quot;name&quot;: &quot;码酱&quot;,    &quot;introduction&quot;: &quot;我不是大佬，只是在追寻大佬的脚步&quot;,    &quot;url&quot;: &quot;http://luokangyuan.com/&quot;,    &quot;title&quot;: &quot;前去学习&quot;}, {    &quot;avatar&quot;: &quot;http://image.luokangyuan.com/4027734.jpeg&quot;,    &quot;name&quot;: &quot;闪烁之狐&quot;,    &quot;introduction&quot;: &quot;编程界大佬，技术牛，人还特别好，不懂的都可以请教大佬&quot;,    &quot;url&quot;: &quot;https://blinkfox.github.io/&quot;,    &quot;title&quot;: &quot;前去学习&quot;}, {    &quot;avatar&quot;: &quot;http://image.luokangyuan.com/avatar.jpg&quot;,    &quot;name&quot;: &quot;ja_rome&quot;,    &quot;introduction&quot;: &quot;平凡的脚步也可以走出伟大的行程&quot;,    &quot;url&quot;: &quot;ttps://me.csdn.net/jlh912008548&quot;,    &quot;title&quot;: &quot;前去学习&quot;}]</code></pre><h2 id="修改社交链接"><a href="#修改社交链接" class="headerlink" title="修改社交链接"></a>修改社交链接</h2><p>在主题文件的<code>/layout/_partial/social-link.ejs</code>文件中，你可以修改或添加你需要的社交链接地址</p><p>其中，社交图标在Font Awesome中搜索找到。以下是常用社交图标标识:</p><pre><code>Facebook: fa-facebookTwitter: fa-twitterGoogle-plus: fa-google-plusLinkedin: fa-linkedinTumblr: fa-tumblrMedium: fa-mediumSlack: fa-slack新浪微博: fa-weibo微信: fa-wechatQQ: fa-qq</code></pre><h2 id="自定义主页文字，解除与subtitle和description的绑定"><a href="#自定义主页文字，解除与subtitle和description的绑定" class="headerlink" title="自定义主页文字，解除与subtitle和description的绑定"></a>自定义主页文字，解除与subtitle和description的绑定</h2><p>进入博客根目录，在<code>_config.yml</code>文件中添加字段</p><pre><code># 自定义的matery_Theme首页文字  matery_subtitle: 常青滕’s Blogmatery_description: 念念不忘，必有回响</code></pre><ul><li>打开目录<code>themes\hexo-theme-matery\layout\_partial\bg-cover.ejs</code>文件</li><li>将<code>config.subtitle</code>和<code>config.subtitle</code>字段替换为<code>config.matery_subtitle</code>和<code>config.matery_subtitle</code>即可</li></ul><h2 id="自定义主页文章卡片中的摘要内容"><a href="#自定义主页文章卡片中的摘要内容" class="headerlink" title="自定义主页文章卡片中的摘要内容"></a>自定义主页文章卡片中的摘要内容</h2><ul><li>修改目录<code>\themes\hexo-theme-matery\layout\</code>目录下的<code>index.ejs</code>、<code>archive.ejs</code>、<code>category.ejs</code>文件</li><li>将<code>&lt;div class=&quot;summary&quot;&gt;&lt;%- strip_html(post.content).substring(0, 70) %&gt;</code>修改为<code>&lt;div class=&quot;summary&quot;&gt;&lt;%- strip_html(post.excerpt).substring(0, 70) %&gt;</code></li><li>在编写文章的时候，在文章中插入标签<code>&lt;!-- more --&gt;</code>，标签<code>&lt;!-- more --&gt;</code>以上的内容为文章摘要，摘要中的前70个字符现在在主页文章卡片中</li></ul><h2 id="美化文章中超链接，添加变色效果和椭圆边框"><a href="#美化文章中超链接，添加变色效果和椭圆边框" class="headerlink" title="美化文章中超链接，添加变色效果和椭圆边框"></a>美化文章中超链接，添加变色效果和椭圆边框</h2><p>打开/source/css/my.css，如果主题没有自定义css功能，可以在主题css中添加内容<br>        /<em>   给超链接增加特效      </em>/<br>        .dt-p {<br>            background-color: white;<br>            border: 1px solid #333;<br>            border-radius: 45px;<br>            width: auto;<br>            height: auto;<br>            padding: 9px 45px 9px 45px;<br>            text-align: center;<br>            display: inline;   /<em>后面无换行，宽度随内容变化</em>/<br>        }</p><pre><code>    .dt-p:hover {        background-color: black;    }    #dt-a {        text-decoration:none !important; /*去掉超链接下划线*/    }    #dt-span {        color: white;        mix-blend-mode: difference;  /*颜色反相*/    }</code></pre><p>博文中需要加效果的链接代码如下(class、ID名称与css中一致)</p><pre><code>&lt;div&gt;        &lt;a href=&quot;/posts/41119.html&quot; id=dt-a&gt;&lt;p class=dt-p&gt;&lt;span id=dt-span&gt;Windows软件推荐&lt;/span&gt;&lt;/p&gt;&lt;/a&gt;&lt;br&gt;        &lt;/div&gt;</code></pre><p>实际效果如图<br><img src="http://pk535c0ah.bkt.clouddn.com/static//images/2018-12-27-09-21-38.gif"></p>]]></content>
       
       
       <categories>
@@ -343,7 +320,7 @@
       
         <tags>
             
-            <tag> 直播 </tag>
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -374,8 +351,8 @@
     
     <entry>
       <title>安卓软件推荐</title>
-      <link href="/posts/38260.html"/>
-      <url>/posts/38260.html</url>
+      <link href="/posts/23573.html"/>
+      <url>/posts/23573.html</url>
       
         <content type="html"><![CDATA[<ul><li>自用软件，个个精品</li></ul><a id="more"></a><h2 id="刷机"><a href="#刷机" class="headerlink" title="刷机"></a>刷机</h2><p><code>小米8青春版专用</code></p><blockquote><p>recovery  </p></blockquote><blockquote><p>magisk</p></blockquote><h2 id="系统"><a href="#系统" class="headerlink" title="系统"></a>系统</h2><blockquote><p>幸运破解器  </p><ul><li>可以破解某些游戏，主要用来去除一些app的广告，需root</li></ul></blockquote><blockquote><p>SD Maid破解版  </p></blockquote><blockquote><p>BATKill  </p></blockquote><blockquote><p>MT管理器破解  </p></blockquote><ul><li>一款强大的文件管理器</li></ul><blockquote><p>Adaway</p></blockquote><ul><li>hosts去广告app，不占后台资源</li></ul><blockquote><p>myAndroidtools</p></blockquote><ul><li>禁用组件，减少毒瘤后台服务，需root</li></ul><blockquote><p>Dir</p><ul><li>讲广告目录替换为空文件，修改权限，防止毒瘤软件耍流氓</li></ul></blockquote><h2 id="影音"><a href="#影音" class="headerlink" title="影音"></a>影音</h2><blockquote><p>腾讯视频去广告</p></blockquote><ul><li>去掉广告，但是微信也不能登录</li></ul><blockquote><p>哔哩哔哩免流版 </p></blockquote><ul><li>大王卡居然也可以免流，福利</li></ul><blockquote><p>Z直播  #官方下载  </p></blockquote><ul><li>好用的直播聚合app（不是电视台节目直播）</li></ul><blockquote><p>那好吧  #暗号1024</p></blockquote><ul><li>老司机福利app</li></ul><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><blockquote><p>每日英语听力破解  </p></blockquote><ul><li>好多好多英语听力资源</li></ul><blockquote><p>百词斩</p></blockquote><ul><li>背单词啦  </li></ul><blockquote><p>欧路词典破解</p></blockquote><ul><li>好用的英语词典，可以跨程序查词</li></ul><h2 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h2><blockquote><p>百度网盘VIP  </p></blockquote><ul><li>配合雷电模拟器可以在PC上摆脱百度网盘速度限制</li></ul><blockquote><p>迅雷去广告  </p></blockquote><ul><li>配合“那好吧”下福利</li></ul><blockquote><p>airdroid  </p></blockquote><ul><li>通过wifi管理手机，不用接数据线了</li></ul><h2 id="V匹嗯"><a href="#V匹嗯" class="headerlink" title="V匹嗯"></a>V匹嗯</h2><blockquote><p>某灯</p></blockquote><ul><li>知名番强app，稳定性不好（刚需还是搬瓦工自己搭梯子吧）</li></ul><blockquote><p>sai疯</p></blockquote><ul><li>知名番强app，稳定性不好（刚需还是搬瓦工自己搭梯子吧）</li></ul><blockquote><p>黑猫</p></blockquote><h2 id="办公"><a href="#办公" class="headerlink" title="办公"></a>办公</h2><blockquote><p>多看阅读无广告  </p></blockquote><ul><li>自用主力阅读器</li></ul><blockquote><p>Xmind破解 </p></blockquote><ul><li>知名思维导图手机版，凑合用吧</li></ul><blockquote><p>扫描全能王破解 </p></blockquote><ul><li>功能很强大，部分破解，凑合用吧</li></ul><h2 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h2><blockquote><p>Kindle  </p></blockquote><ul><li>自用主力阅读器2号</li></ul><blockquote><p>Smart AudioBook Player</p></blockquote><ul><li>听英语电子书的本地播放器  </li></ul><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><blockquote><p>PPIICC</p></blockquote><ul><li>拼图软件  </li></ul><blockquote><p>爱壁纸去广告</p></blockquote><ul><li>壁纸库蛮大</li></ul><h2 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h2><ul><li><a href="https://www.lanzous.com/b529854/" target="_blank" rel="noopener">主力地址</a>  暗号:dwlf</li></ul>]]></content>
       
@@ -390,6 +367,29 @@
         <tags>
             
             <tag> 安卓 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>用OBS Studio推流直播</title>
+      <link href="/posts/7252.html"/>
+      <url>/posts/7252.html</url>
+      
+        <content type="html"><![CDATA[<p>不堪回首的直播往事~<br><a id="more"></a></p><p>obs官网</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 文章 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 直播 </tag>
             
         </tags>
       

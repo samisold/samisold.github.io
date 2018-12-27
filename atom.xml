@@ -47,28 +47,6 @@
   </entry>
   
   <entry>
-    <title>PS系列：简单处理文档手机照片</title>
-    <link href="http://www.syteng.com/posts/7251.html"/>
-    <id>http://www.syteng.com/posts/7251.html</id>
-    <published>2018-12-27T04:31:39.545Z</published>
-    <updated>2018-12-27T04:30:47.098Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;文档照片处理完直接打印&lt;br&gt;
-    
-    </summary>
-    
-      <category term="文章" scheme="http://www.syteng.com/categories/articles/"/>
-    
-    
-      <category term="Photoshop" scheme="http://www.syteng.com/tags/Photoshop/"/>
-    
-      <category term="技巧" scheme="http://www.syteng.com/tags/skills/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Hexo系列：Hexo官方资源</title>
     <link href="http://www.syteng.com/posts/45119.html"/>
     <id>http://www.syteng.com/posts/45119.html</id>
@@ -235,30 +213,24 @@
   </entry>
   
   <entry>
-    <title>Hexo系列：Hexo主题matery的自定义修改</title>
-    <link href="http://www.syteng.com/posts/19667.html"/>
-    <id>http://www.syteng.com/posts/19667.html</id>
-    <published>2018-12-27T04:31:39.529Z</published>
-    <updated>2018-12-27T04:30:47.067Z</updated>
+    <title>PS系列：简单处理文档手机照片</title>
+    <link href="http://www.syteng.com/posts/7251.html"/>
+    <id>http://www.syteng.com/posts/7251.html</id>
+    <published>2018-12-27T04:31:39.545Z</published>
+    <updated>2018-12-27T04:30:47.098Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;h2 id=&quot;Matery官方库&quot;&gt;&lt;a href=&quot;#Matery官方库&quot; class=&quot;headerlink&quot; title=&quot;Matery官方库&quot;&gt;&lt;/a&gt;Matery官方库&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a
-        
-      
+      &lt;p&gt;文档照片处理完直接打印&lt;br&gt;
     
     </summary>
     
       <category term="文章" scheme="http://www.syteng.com/categories/articles/"/>
     
     
-      <category term="Hexo" scheme="http://www.syteng.com/tags/Hexo/"/>
+      <category term="Photoshop" scheme="http://www.syteng.com/tags/Photoshop/"/>
+    
+      <category term="技巧" scheme="http://www.syteng.com/tags/skills/"/>
     
   </entry>
   
@@ -281,6 +253,28 @@
     
     
       <category term="网址" scheme="http://www.syteng.com/tags/links/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>电子书资源</title>
+    <link href="http://www.syteng.com/posts/11288.html"/>
+    <id>http://www.syteng.com/posts/11288.html</id>
+    <published>2018-12-27T04:31:39.529Z</published>
+    <updated>2018-12-27T05:15:46.406Z</updated>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;电子书，爱下不下&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="资源" scheme="http://www.syteng.com/categories/resources/"/>
+    
+    
+      <category term="电子书" scheme="http://www.syteng.com/tags/eBook/"/>
     
   </entry>
   
@@ -308,28 +302,6 @@
     
     
       <category term="安卓" scheme="http://www.syteng.com/tags/android/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>电子书资源</title>
-    <link href="http://www.syteng.com/posts/11288.html"/>
-    <id>http://www.syteng.com/posts/11288.html</id>
-    <published>2018-12-27T04:31:39.529Z</published>
-    <updated>2018-12-27T05:15:46.406Z</updated>
-    
-    <summary type="html">
-    
-      &lt;ul&gt;
-&lt;li&gt;电子书，爱下不下&lt;/li&gt;
-&lt;/ul&gt;
-    
-    </summary>
-    
-      <category term="资源" scheme="http://www.syteng.com/categories/resources/"/>
-    
-    
-      <category term="电子书" scheme="http://www.syteng.com/tags/eBook/"/>
     
   </entry>
   
@@ -378,22 +350,30 @@
   </entry>
   
   <entry>
-    <title>用OBS Studio推流直播</title>
-    <link href="http://www.syteng.com/posts/7252.html"/>
-    <id>http://www.syteng.com/posts/7252.html</id>
-    <published>2018-12-27T04:31:39.514Z</published>
-    <updated>2018-12-27T04:30:47.051Z</updated>
+    <title>Hexo系列：Hexo主题matery的自定义修改</title>
+    <link href="http://www.syteng.com/posts/19667.html"/>
+    <id>http://www.syteng.com/posts/19667.html</id>
+    <published>2018-12-27T04:31:39.529Z</published>
+    <updated>2018-12-27T04:30:47.067Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;不堪回首的直播往事~&lt;br&gt;
+      
+      
+        
+        
+          &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;Matery官方库&quot;&gt;&lt;a href=&quot;#Matery官方库&quot; class=&quot;headerlink&quot; title=&quot;Matery官方库&quot;&gt;&lt;/a&gt;Matery官方库&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a
+        
+      
     
     </summary>
     
       <category term="文章" scheme="http://www.syteng.com/categories/articles/"/>
     
     
-      <category term="直播" scheme="http://www.syteng.com/tags/live/"/>
+      <category term="Hexo" scheme="http://www.syteng.com/tags/Hexo/"/>
     
   </entry>
   
@@ -419,10 +399,10 @@
   
   <entry>
     <title>安卓软件推荐</title>
-    <link href="http://www.syteng.com/posts/38260.html"/>
-    <id>http://www.syteng.com/posts/38260.html</id>
+    <link href="http://www.syteng.com/posts/23573.html"/>
+    <id>http://www.syteng.com/posts/23573.html</id>
     <published>2018-12-27T04:31:39.514Z</published>
-    <updated>2018-12-27T05:16:05.305Z</updated>
+    <updated>2018-12-27T05:21:25.375Z</updated>
     
     <summary type="html">
     
@@ -436,6 +416,26 @@
     
     
       <category term="安卓" scheme="http://www.syteng.com/tags/android/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>用OBS Studio推流直播</title>
+    <link href="http://www.syteng.com/posts/7252.html"/>
+    <id>http://www.syteng.com/posts/7252.html</id>
+    <published>2018-12-27T04:31:39.514Z</published>
+    <updated>2018-12-27T04:30:47.051Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;不堪回首的直播往事~&lt;br&gt;
+    
+    </summary>
+    
+      <category term="文章" scheme="http://www.syteng.com/categories/articles/"/>
+    
+    
+      <category term="直播" scheme="http://www.syteng.com/tags/live/"/>
     
   </entry>
   
