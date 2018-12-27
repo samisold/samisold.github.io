@@ -1,0 +1,93 @@
+/* Here is your custom css styles. */
+
+/*    自定义美化超链接      */
+.teng_bg {
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 45px;
+    padding: 9px 45px 9px 45px;
+}
+
+.teng_bg:hover {
+	background-color: black;
+}
+
+
+
+
+.teng_link a p {
+	background: transparent;
+	border: 1px solid #333;
+	border-radius: 45px;   //边框圆角大小
+	width: auto;
+	height: auto;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	cursor: pointer; 
+    padding: 9px 45px 9px 45px;
+    text-align: center;
+}
+
+.teng_link a p span {
+	color: white;
+    mix-blend-mode: difference;
+}
+
+.teng_link a p::before {
+    content: '';
+    background-color: transparent; 
+    border: none;
+    position: absolute;
+	width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.teng_link a p:hover::before  {
+    content: '';
+    background-color: black; 
+    border: none;
+	border-radius: 45px;  
+    position: absolute;
+	width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+/* 修复文章中code代码超出边界的显示bug   */
+td.gutter{
+    display:none
+}
+
+
+td.gutter pre{
+    display:none
+}
+
+td.code{
+    max-width: 99%;
+    overflow-x: hidden;
+    padding: 0;
+    
+}
+td.code pre{
+    max-width: 99%;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+/*    去掉文章中引用code表格边框    */
+#articleContent table{
+    border-style: none;
+}
+
+#articleContent table tr{
+    border-style: none;
+}
+
+#articleContent table tr td{
+    border-style: none;
+}
